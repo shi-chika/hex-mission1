@@ -1,0 +1,125 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul, li {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --font-family: "Noto Sans TC", sans-serif;
+  --cardTitle-color: #3B3B3B ;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 80px;
+  padding-top: 120px;
+  padding-bottom: 72px;
+}
+
+.card .card-img-box {
+  overflow: hidden;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  border: 1px solid #F1F1F1;
+}
+.card img {
+  vertical-align: middle;
+  width: 100%;
+  transition: all 0.3s ease;
+}
+.card:hover .card-img {
+  transform: scale(1.1);
+}
+
+.card-content {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.card-content .card-title {
+  color: var(--cardTitle-color);
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.card-content .card-para {
+  margin-bottom: 24px;
+  color: #919191;
+}
+
+.card-tags {
+  display: flex;
+  -moz-column-gap: 16px;
+       column-gap: 16px;
+}
+.card-tags li {
+  background-color: #F1F1F1;
+  padding: 4px 12px;
+  border-radius: 12px;
+}/*# sourceMappingURL=all.css.map */
